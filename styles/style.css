@@ -1,0 +1,108 @@
+
+body{
+    background-image: url(../images/churras.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;    
+    
+}
+
+
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    
+    
+}
+
+button{
+    background-color: red;
+    font-weight: bold;
+    width: 10rem;
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+input{
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        background-image: url(../images/churras\ mobile.jpg);
+        background-position: calc(5% - 100px) center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin:0;
+        display: block;
+
+        
+    }
+
+    h1{
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-top: 30%;
+        margin-bottom: 30px;
+    }
+
+    .container{
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 200px;        
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgba(0,0,0,0.5); 
+
+        
+    }
+
+    button{
+        background-color: red;
+        font-weight: bold;
+        width: 8rem;
+        padding: 1rem;
+        text-align: center;
+        display: inline-block;
+        border-radius: 10px;
+        
+    }
+    
+    input{
+        text-align: center;
+        width: 90%;
+        display: block;
+        padding: 5px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    
+}
+    
+        
+
+  
