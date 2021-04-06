@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(../images/churras.jpg);
+    background-image: url(churras.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 96vh;    
@@ -12,6 +12,16 @@ body{
 h1{
     color: red;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .container{
@@ -23,18 +33,21 @@ h1{
     border-radius: 10px;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
-    
+        
     
 }
 
 button{
-    background-color: red;
+    background-color: rgba(0,0,0,0.8);
     font-weight: bold;
     width: 10rem;
     padding: 1rem;
     text-align: center;
     display: inline-block;
     border-radius: 10px;
+    border-color: red;
+    color: red;
+    
     
 }
 
@@ -46,11 +59,22 @@ input{
     box-sizing: border-box;
     margin-bottom: 10px;
     align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    color: red;
+    border-color: white;
+    font-weight: bold;
+}
+
+#resultado{
+    font-weight: bold;
+    background-color: rgba(10,0,0,0.5);
+    border-radius: 10px;
+    
 }
 
 @media only screen and (max-width: 900px) {
     body{
-        background-image: url(../images/churras\ mobile.jpg);
+        background-image: url(churras mobile.jpg);
         background-position: calc(5% - 100px) center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -66,6 +90,7 @@ input{
         font-size: 20px;
         margin-top: 30%;
         margin-bottom: 30px;
+        background-color: rgba(0,0,0,0.5);
     }
 
     .container{
@@ -75,30 +100,35 @@ input{
         padding: 10px;
         border-radius: 10px;
         text-align: center;
-        background-color: rgba(0,0,0,0.5); 
+        background-color: rgba(0,0,0,0.5);
+        align-items: center;
 
         
     }
 
     button{
-        background-color: red;
+        background-color: rgba(0,0,0,0.8);
         font-weight: bold;
         width: 8rem;
         padding: 1rem;
         text-align: center;
         display: inline-block;
         border-radius: 10px;
-        
+        color: red;
+        border-color: red;
+        font-weight: bold;
     }
     
     input{
         text-align: center;
-        width: 90%;
+        width: 100%;
         display: block;
         padding: 5px;
         box-sizing: border-box;
         margin-bottom: 10px;
         align-items: center;
+        background-color: rgba(0,0,0,0.8);
+        font-weight: bold;
     }
     
 }
